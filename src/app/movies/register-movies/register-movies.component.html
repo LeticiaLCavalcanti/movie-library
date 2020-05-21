@@ -1,0 +1,20 @@
+<mat-toolbar class="app-title">Register New Movie</mat-toolbar>
+<div class="main-div">
+  <mat-card class="center width50" *ngIf="register" >
+    <form autocomplete="off" novalidate [formGroup]="register" (ngSubmit)="submit()" (ngReset)="resetForm()">
+      <mat-card-content>
+        <app-input-text title="Title *" controlName="title" [formGroup]="register"></app-input-text>
+        <app-input-text title="Link Photo" controlName="urlPhoto" [formGroup]="register"></app-input-text>
+        <app-input-date title="Release Date *" controlName="releaseDt" [formGroup]="register"></app-input-date>
+        <app-input-textarea title="Description" controlName="description" [formGroup]="register"></app-input-textarea>
+        <app-input-number title="Rate IMDb *" controlName="rate" step="0.1" [formGroup]="register"></app-input-number>
+        <app-input-text title="Link IMDb" controlName="urlIMDb" [formGroup]="register"></app-input-text>
+        <app-input-select title="Gender *" [options]="genders" controlName="gender" [formGroup]="register"></app-input-select>
+      </mat-card-content>
+      <mat-card-actions>
+        <button type="submit" color="accent" mat-raised-button>Salve</button>
+        <button type="reset" color="warn" mat-raised-button>Cancel</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>
