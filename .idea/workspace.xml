@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="32da5610-aa76-49e0-b4ef-595754d14f0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/movies-list/movies-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/movies-list/movies-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/movies-list/movies-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/movies-list/movies-list.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/register-movies/register-movies.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/register-movies/register-movies.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/register-movies/register-movies.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/register-movies/register-movies.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/register-movies/register-movies.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/register-movies/register-movies.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/view-movies/view-movies.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/view-movies/view-movies.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/view-movies/view-movies.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/view-movies/view-movies.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movies/view-movies/view-movies.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movies/view-movies/view-movies.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/alert/alert.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/alert/alert.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/alert/alert.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/alert/alert.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/header/header.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/inputs/input-number/input-number.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/inputs/input-number/input-number.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/inputs/input-number/input-number.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/inputs/input-number/input-number.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/inputs/input-text/input-text.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/inputs/input-text/input-text.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/inputs/input-textarea/input-textarea.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/inputs/input-textarea/input-textarea.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -55,7 +38,9 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="20">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -352,12 +337,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590037129794</updated>
-      <workItem from="1590037133123" duration="37660000" />
+      <workItem from="1590037133123" duration="37913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37660000" />
+    <option name="totallyTimeSpent" value="37913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -767,7 +752,9 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="20">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>

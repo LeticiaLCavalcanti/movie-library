@@ -1,7 +1,5 @@
-## Installation
-
-1. clone the `git clone git@github.com repository: RenanRB / curso-angular.git`
-2. Enter the project and install the `npm install` dependencies
+## Installation 
+Enter the project and install the `npm install` dependencies
 
 ## Local Environment
 
