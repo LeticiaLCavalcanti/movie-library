@@ -5,14 +5,13 @@
 <div mat-dialog-actions>
   <button mat-raised-button
           [color]="alert.colorBtnSuccess"
-          cdkFocusInitial
           [mat-dialog-close]="true">
-    {{alert.colorBtnSuccess}}
+    {{alert.btnSuccess}}
   </button>
   <button mat-raised-button
           [color]="alert.colorBtnCancel"
           [mat-dialog-close]="false"
           *ngIf="alert.haveBtnClose" >
-    {{alert.colorBtnCancel}}
+    {{alert.btnCancel}}
   </button>
 </div>

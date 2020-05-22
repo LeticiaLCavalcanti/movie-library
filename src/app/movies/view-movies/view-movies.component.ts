@@ -5,6 +5,7 @@ import { MoviesService } from 'src/app/core/movies.service';
 import { Movies } from 'src/app/shared/models/movies';
 import { Alert } from 'src/app/shared/models/alert';
 import { AlertComponent } from 'src/app/shared/components/alert/alert.component';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-view-movies',
@@ -19,11 +20,16 @@ export class ViewMoviesComponent implements OnInit {
   constructor(public dialog: MatDialog,
               private activatedRoute: ActivatedRoute,
               private router: Router,
-              private moviesService: MoviesService) { }
+              private moviesService: MoviesService,
+              private _location: Location) { }
 
   ngOnInit() {
     this.id = this.activatedRoute.snapshot.params['id'];
     this.toView();
+  }
+
+  redirect (): void {
+    this._location.back();
   }
 
   edit(): void {

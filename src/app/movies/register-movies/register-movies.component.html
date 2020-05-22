@@ -1,6 +1,10 @@
 <mat-toolbar class="app-title">Register New Movie</mat-toolbar>
 <div class="main-div">
-  <mat-card class="center width50" *ngIf="register" >
+  <mat-card class="center width50" *ngIf="register">
+    <div class="redirect" (click)="redirect()">
+      <span class="material-icons">arrow_back</span>
+      <span>Back to details</span>
+    </div>
     <form autocomplete="off" novalidate [formGroup]="register" (ngSubmit)="submit()" (ngReset)="resetForm()">
       <mat-card-content>
         <app-input-text title="Title *" controlName="title" [formGroup]="register"></app-input-text>
@@ -13,7 +17,7 @@
       </mat-card-content>
       <mat-card-actions>
         <button type="submit" color="accent" mat-raised-button>Salve</button>
-        <button type="reset" color="warn" mat-raised-button>Cancel</button>
+        <button type="reset" color="warn" mat-raised-button>Clear All</button>
       </mat-card-actions>
     </form>
   </mat-card>

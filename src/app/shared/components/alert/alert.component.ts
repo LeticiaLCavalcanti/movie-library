@@ -12,7 +12,7 @@ export class AlertComponent implements OnInit {
   alert = {
     title: 'Success!',
     description: 'Your registration has been successfully registered!',
-    btnSuccess: 'OK',
+    btnSuccess: 'Ok',
     btnCancel: 'Cancel',
     colorBtnSuccess: 'accent',
     colorBtnCancel: 'warn',

@@ -1,6 +1,18 @@
 .mat-card-image {
-  width: 182px;
-  height: 268px;
+  max-width: 180px;
   margin: auto;
   display: block;
+}
+
+@media (max-width: 760px) {
+  .mat-card {
+    width: 85%
+  }
+  .mat-list {
+    margin-bottom: 20px;
+  }
+  .list-mat {
+    margin-top: -21px;
+  }
+
 }

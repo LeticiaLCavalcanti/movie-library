@@ -1,18 +1,25 @@
-<mat-list *ngIf="movie; else noRegistry">
-  <mat-list-item> Title: {{movie.title}} </mat-list-item>
-  <mat-list-item> Release Date: {{movie.releaseDt | date: 'dd/MM/yyyy' }} </mat-list-item>
-  <mat-list-item> Gender: {{movie.gender}} </mat-list-item>
-  <mat-list-item class="break-line"> Description: {{movie.description}} </mat-list-item>
-  <mat-list-item> Rate: <a [href]="movie.urlIMDb" target="_blank"> {{movie.rate}}</a> </mat-list-item>
-  <img mat-card-image [src]="movie.urlPhoto || withoutPhoto" >
-</mat-list>
-<mat-card>
-  <mat-card-actions>
-    <button color="accent" mat-raised-button (click)="edit()">Edit</button>
-    <button color="warn" mat-raised-button (click)="delete()">Cancel</button>
-  </mat-card-actions>
+<mat-card class="width50 center">
+  <div class="redirect" (click)="redirect()">
+    <span class="material-icons">arrow_back</span>
+    <span>Back to list</span>
+  </div>
+  <mat-list *ngIf="movie; else noRegistry">
+    <mat-list-item> Title: {{movie.title}} </mat-list-item>
+    <mat-list-item class="list-mat"> Release Date: {{movie.releaseDt | date: 'dd/MM/yyyy' }} </mat-list-item>
+    <mat-list-item class="mat-list list-mat"> Gender: {{movie.gender}} </mat-list-item>
+    <mat-list-item class="mat-list"> Description: {{movie.description}} </mat-list-item>
+    <mat-list-item class="mat-list"> Rate: <a [href]="movie.urlIMDb" target="_blank" class="color-white" style="margin-left: 4px"> {{movie.rate}} </a></mat-list-item>
+    <img mat-card-image [src]="movie.urlPhoto || withoutPhoto" >
+  </mat-list>
+
+    <mat-card-actions class="margin-top-10">
+      <button color="accent" mat-raised-button (click)="edit()">Edit</button>
+      <button color="warn" mat-raised-button (click)="delete()">Delete</button>
+    </mat-card-actions>
+
+
+  <ng-template #noRegistry>
+    <h1 class="full-width main-div">No movies found!</h1>
+  </ng-template>
 </mat-card>
 
-<ng-template #noRegistry>
-  <h1 class="full-width main-div">No records found!</h1>
-</ng-template>

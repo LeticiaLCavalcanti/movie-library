@@ -35,6 +35,18 @@ body {
   margin: 10px;
 }
 
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-button-0 {
+  margin-bottom: 0;
+}
+
+.margin-button-10 {
+  margin-bottom: 0;
+}
+
 .padding10 {
   padding: 10px;
 }
@@ -45,6 +57,19 @@ body {
 
 .main-colors {
   background: #000000;
-  //color: #ffe300
   color: #03e3ff;
+}
+
+.color-white {
+  color: #ffff;
+}
+
+.redirect {
+  font-size: 14px;
+  color: #03e3ff;
+
+  .material-icons {
+    font-size: 12px;
+    margin-right: 5px;
+  }
 }

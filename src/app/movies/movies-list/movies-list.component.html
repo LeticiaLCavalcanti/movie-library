@@ -22,28 +22,27 @@
   </form>
 </mat-card>
 
-<div  class="home-content"
+<div class="home-content"
       infiniteScroll
       (scrolled)="onScroll()"
       *ngIf="movies.length; else noRegistry">
   <mat-card class="home-card" *ngFor="let movie of movies">
     <mat-card-header>
-      <div mat-card-avatar></div>
       <mat-card-title>{{movie.title}}</mat-card-title>
       <mat-card-subtitle>{{movie.gender}}</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image [src]="movie.urlPhoto || withoutPhoto" >
+    <img alt="cover image" mat-card-image [src]="movie.urlPhoto || withoutPhoto" >
     <mat-card-content>
       <p class="break-line">
         {{movie.description || 'No description provided'}}
       </p>
     </mat-card-content>
-    <mat-card-actions>
-      <button color="accent" mat-raised-button (click)="open(movie.id)">OPEN</button>
+    <mat-card-actions class="actions">
+      <button color="accent" mat-raised-button (click)="open(movie.id)">Open</button>
     </mat-card-actions>
   </mat-card>
 </div>
 
 <ng-template #noRegistry>
-  <h1 class="full-width main-div">No records found!</h1>
+  <h1 class="full-width main-div">No movies found!</h1>
 </ng-template>

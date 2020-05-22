@@ -31,34 +31,34 @@
       "gender": "Action"
     },
     {
-      "id": 4,
       "title": "MIB: Men in Black - International",
       "urlPhoto": "https://m.media-amazon.com/images/M/MV5BMDZkODI2ZGItYTY5Yi00MTA4LWExY2ItM2ZmNjczYjM0NDg1XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "releaseDt": "2019-13-11T03:00:00.000Z",
-      "description": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest threat to date: a mole in the Men in Black organization.",
+      "releaseDt": "2020-05-14T03:00:00.000Z",
+      "description": "The Men in Black have always protected the Earth from the scum of the universe.",
       "rate": 5.6,
       "urlIMDb": "https://www.imdb.com/title/tt2283336/",
-      "gender": "Action"
+      "gender": "Action",
+      "id": 4
     },
     {
-      "id": 5,
       "title": "Joker",
       "urlPhoto": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "releaseDt": "2019-10-03T03:00:00.000Z",
-      "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+      "description": "Mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution.",
       "rate": 8.7,
       "urlIMDb": "https://www.imdb.com/title/tt7286456/",
-      "gender": "Drama"
+      "gender": "Drama",
+      "id": 5
     },
     {
-      "id": 6,
       "title": "Avengers: Endgame",
       "urlPhoto": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "releaseDt": "2019-04-25T03:00:00.000Z",
-      "description": "After the devastating events of Vingadores: Guerra Infinita (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "description": " With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
       "rate": 8.5,
       "urlIMDb": "https://www.imdb.com/title/tt4154796/",
-      "gender": "Adventure"
+      "gender": "Adventure",
+      "id": 6
     },
     {
       "id": 7,
@@ -109,6 +109,16 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "gender": "Adventure",
       "id": 11
+    },
+    {
+      "title": "Parasite ",
+      "urlPhoto": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "releaseDt": "2019-11-07T03:00:00.000Z",
+      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "rate": 8.6,
+      "urlIMDb": "https://www.imdb.com/title/tt6751668/?ref_=hm_fanfav_tt_4_pd_fp1",
+      "gender": "Drama",
+      "id": 12
     }
   ]
 }

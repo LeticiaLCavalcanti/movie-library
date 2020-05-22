@@ -1,9 +1,3 @@
-# Intermediate Angular Course - Digital Innovation One
-
-This course was made for the [Digital Innovation One] platform (https://digitalinnovation.one/)
-
-The course consists of a film system, with the possibility of registering, editing, listing and viewing the films.
-
 ## Installation
 
 1. clone the `git clone git@github.com repository: RenanRB / curso-angular.git`

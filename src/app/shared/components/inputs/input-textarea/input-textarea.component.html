@@ -7,11 +7,11 @@
     </textarea>
     <mat-error *ngIf="validate.hasErrorValid(formControl, 'required')">required</mat-error>
     <mat-error *ngIf="validate.hasErrorValid(formControl, 'minlength')">
-      minimum required {{validate.lengthValidate(formControl, 'minlength')}} characters
+      minimum required is {{validate.lengthValidate(formControl, 'minlength')}} characters
 
     </mat-error>
     <mat-error *ngIf="validate.hasErrorValid(formControl, 'maxlength')">
-      maximum required {{validate.lengthValidate(formControl, 'maxlength')}} characters
+      maximum required is {{validate.lengthValidate(formControl, 'maxlength')}} characters
     </mat-error>
   </mat-form-field>
 </div>

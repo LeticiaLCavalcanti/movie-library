@@ -7,6 +7,7 @@ import { Movies } from 'src/app/shared/models/movies';
 import { MoviesService } from 'src/app/core/movies.service';
 import { AlertComponent } from 'src/app/shared/components/alert/alert.component';
 import { Alert } from 'src/app/shared/models/alert';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-register-movies',
@@ -24,7 +25,8 @@ export class RegisterMoviesComponent implements OnInit {
               private fb: FormBuilder,
               private movieService: MoviesService,
               private router: Router,
-              private activatedRoute: ActivatedRoute) { }
+              private activatedRoute: ActivatedRoute,
+              private _location: Location) { }
 
   get f() {
     return this.register.controls;
@@ -40,6 +42,10 @@ export class RegisterMoviesComponent implements OnInit {
 
     this.genders = ['Action', 'Romance', 'Adventure', 'Horror', 'Sci-Fi', 'Comedy', 'Adventure', 'Drama'];
 
+  }
+
+  redirect (): void {
+    this._location.back();
   }
 
   submit(): void {
@@ -63,10 +69,10 @@ export class RegisterMoviesComponent implements OnInit {
 
   private createForm(movie: Movies): void {
     this.register = this.fb.group({
-      title: [movie.title, [Validators.required, Validators.minLength(2), Validators.maxLength(256)]],
+      title: [movie.title, [Validators.required, Validators.minLength(2), Validators.maxLength(50)]],
       urlPhoto: [movie.urlPhoto, [Validators.minLength(10)]],
       releaseDt: [movie.releaseDt, [Validators.required]],
-      description: [movie.description],
+      description: [movie.description, [Validators.maxLength(140)]],
       rate: [movie.rate, [Validators.required, Validators.min(0), Validators.max(10)]],
       urlIMDb: [movie.urlIMDb, [Validators.minLength(10)]],
       gender: [movie.gender, [Validators.required]]
@@ -111,7 +117,7 @@ export class RegisterMoviesComponent implements OnInit {
           title: 'Error saving the record!',
           description: 'You were unable to edit your record, please try again later',
           colorBtnSuccess: 'warn',
-          btnSuccess: 'Fechar'
+          btnSuccess: 'Close'
         } as Alert
       };
       this.dialog.open(AlertComponent, config);
