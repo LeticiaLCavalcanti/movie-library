@@ -109,16 +109,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "gender": "Adventure",
       "id": 11
-    },
-    {
-      "title": "Parasite ",
-      "urlPhoto": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-      "releaseDt": "2019-11-07T03:00:00.000Z",
-      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
-      "rate": 8.6,
-      "urlIMDb": "https://www.imdb.com/title/tt6751668/?ref_=hm_fanfav_tt_4_pd_fp1",
-      "gender": "Drama",
-      "id": 12
     }
   ]
 }

@@ -39,11 +39,11 @@ export class ViewMoviesComponent implements OnInit {
   delete(): void {
     const config = {
       data: {
-        titulo: 'Are you sure you want to delete?',
-        descricao: 'If you are sure you want to delete, click the OK button',
-        corBtnCancelar: 'primary',
-        corBtnSucesso: 'warn',
-        possuirBtnFechar: true
+        title: 'Are you sure you want to delete?',
+        description: 'If you are sure you want to delete, click the OK button',
+        colorBtnCancel: 'primary',
+        colorBtnSuccess: 'warn',
+        haveBtnClose: true
       } as Alert
     };
     const dialogRef = this.dialog.open(AlertComponent, config);

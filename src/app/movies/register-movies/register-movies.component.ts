@@ -59,7 +59,7 @@ export class RegisterMoviesComponent implements OnInit {
       movie.id = this.id;
       this.edit(movie);
     } else {
-      this.salve(movie);
+      this.save(movie);
     }
   }
 
@@ -92,8 +92,8 @@ export class RegisterMoviesComponent implements OnInit {
     } as Movies;
   }
 
-  private salve(movie: Movies): void {
-    this.movieService.salve(movie).subscribe(() => {
+  private save(movie: Movies): void {
+    this.movieService.save(movie).subscribe(() => {
       const config = {
         data: {
           btnSuccess: 'Go to listing',

@@ -15,7 +15,7 @@ export class MoviesService {
   constructor(private http: HttpClient,
               private configService: ConfigParamsService) { }
 
-  salve(movies: Movies): Observable<Movies> {
+  save(movies: Movies): Observable<Movies> {
     return this.http.post<Movies>(url, movies);
   }
 
